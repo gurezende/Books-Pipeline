@@ -86,7 +86,7 @@ DB_PASSWORD = "<your-database-password>"
 #### Run the ETL Script
 
 ```bash
-python `scripts/etl_script.py
+python scripts/etl_script.py
 ```
 
 ## 📊 Example Use Cases
