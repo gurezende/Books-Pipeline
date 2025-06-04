@@ -24,14 +24,12 @@ A simple, cloud-based data pipeline that extracts book data from the [Open Libra
 
 ## 📦 Project Structure
 
-open-library-etl/
-├── README.md # Project documentation
-└── img/
-└── pipeline-diagram.png # Infographic of the pipeline
-└── scripts/
-├── etl_script.py # Main ETL script
-
-
+open-library-etl/<br>
+├── README.md # Project documentation<br>
+└── img/<br>
+└── pipeline-diagram.png # Infographic of the pipeline<br>
+└── scripts/<br>
+├── etl_script.py # Main ETL script<br>
 ---
 
 ## ⚙️ How It Works
