@@ -70,7 +70,10 @@ pip install pandas sqlalchemy psycopg2 requests
 
 Create a `.env` file:
 ```ini
-DATABASE_URL=your_render_postgres_connection_url
+DB_HOST = "dpg-xxxxxxx.render.com"
+DB_NAME = "<your-database-name>"
+DB_USER = "<your-database-user>"
+DB_PASSWORD = "<your-database-password>"
 ```
 
 #### Run the ETL Script
