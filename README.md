@@ -48,7 +48,7 @@ open-library-etl/<br>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running the Project
 
 ### Prerequisites
 
@@ -60,7 +60,14 @@ open-library-etl/<br>
 - `requests` >= 2.32.3
 - `sqlalchemy` >= 2.0.41
 
-### Install Dependencies
+#### Close the Repository
+
+```bash
+git clone https://github.com/gurezende/Books-Pipeline.git
+```
+
+
+#### Install Dependencies
 
 ```bash
 pip install pandas sqlalchemy psycopg2 requests
@@ -79,7 +86,7 @@ DB_PASSWORD = "<your-database-password>"
 #### Run the ETL Script
 
 ```bash
-python etl_script.py
+python `scripts/etl_script.py
 ```
 
 ## 📊 Example Use Cases
