@@ -65,7 +65,7 @@ class BooksPipeline:
         data.columns = ["title", "author", "published_year", "link"]
 
         # Add category column
-        data["category"] = 1
+        data["category"] = self.category
 
         # Reindex columns
         data = data.reindex(columns=["title", "category", "author", "published_year", "link"])
